@@ -5,6 +5,15 @@ ScriptsOnlyBuild:
     - DropZone
     - ScrollRectSnap
     - Settings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateMachineNode
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
@@ -48,9 +57,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -97,13 +112,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10066}
     - Class: 114
-      Script: {instanceID: 10276}
+      Script: {instanceID: 10098}
     - Class: 114
-      Script: {instanceID: 10350}
+      Script: {instanceID: 10278}
     - Class: 114
-      Script: {instanceID: 10580}
+      Script: {instanceID: 10352}
     - Class: 114
-      Script: {instanceID: 16494}
+      Script: {instanceID: 10582}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -621,7 +636,7 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 2204751da32313dbc93578a3cbe9e3d5
+      Hash: 10c1c8f2e86e51390825e107b8bc9a38
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DropZone
@@ -679,6 +694,12 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkTransformVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 10149b0af07ae83eb789d1f57ec9c007
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScrollRectSnap
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -907,13 +928,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 10149b0af07ae83eb789d1f57ec9c007
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScrollRectSnap
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/ASUS/Downloads/Telegram Desktop/Build2
+  playerPath: C:/Users/ASUS/Documents/GitHub/Build

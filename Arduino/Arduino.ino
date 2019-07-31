@@ -1,32 +1,34 @@
 char incomingData;
-int C1_LED = 47;
-int CS1_LED = 45;
-int D1_LED = 43;
-int DS1_LED = 41;
-int E1_LED = 39;
-int F1_LED = 37;
-int FS1_LED = 35;
-int G1_LED = 33;
-int GS1_LED = 31;
-int A1_LED = 29;
-int AS1_LED = 27;
-int B1_LED = 25;
+int motor = 49;
+int C1_LED = 22;
+int CS1_LED = 24;
+int D1_LED = 26;
+int DS1_LED = 28;
+int E1_LED = 30;
+int F1_LED = 32;
+int FS1_LED = 34;
+int G1_LED = 36;
+int GS1_LED = 38;
+int A1_LED = 40;
+int AS1_LED = 42;
+int B1_LED = 44;
 int C2_LED = 46;
-int CS2_LED = 44;
-int D2_LED = 42;
-int DS2_LED = 40;
-int E2_LED = 38;
-int F2_LED = 36;
-int FS2_LED = 34;
-int G2_LED = 32;
-int GS2_LED = 30;
-int A2_LED = 28;
-int AS2_LED = 26;
-int B2_LED = 24;
-int C3_LED = 22;
+int CS2_LED = 45;
+int D2_LED = 43;
+int DS2_LED = 41;
+int E2_LED = 39;
+int F2_LED = 37;
+int FS2_LED = 35;
+int G2_LED = 33;
+int GS2_LED = 31;
+int A2_LED = 29;
+int AS2_LED = 27;
+int B2_LED = 25;
+int C3_LED = 23;
 
 void setup() {
   Serial.begin(9600);
+  pinMode(motor, OUTPUT);
   pinMode(C1_LED, OUTPUT);
   pinMode(CS1_LED, OUTPUT);
   pinMode(D1_LED, OUTPUT);
@@ -52,6 +54,7 @@ void setup() {
   pinMode(AS2_LED, OUTPUT);
   pinMode(B2_LED, OUTPUT);
   pinMode(C3_LED, OUTPUT);
+  digitalWrite (motor, LOW);
   digitalWrite (C1_LED, LOW);
   digitalWrite (CS1_LED, LOW);
   digitalWrite (D1_LED, LOW);
@@ -209,6 +212,12 @@ void loop() {
         delay(100);
         digitalWrite(C3_LED, LOW);
         break;      
+      case 'w':
+        digitalWrite (motor, HIGH);
+        break;  
+      case 'z':
+        digitalWrite(motor, LOW);
+        break;  
     }
   }
 }
