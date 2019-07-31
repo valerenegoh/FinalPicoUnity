@@ -3327,25 +3327,40 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3823929942843852755, guid: 4bb00be18443ae245af8b27a48e1dcb7,
+        type: 3}
+      propertyPath: TextFile
+      value: 
+      objectReference: {fileID: 4900000, guid: 0eeba9e946cb19443a7cf2a6c684bcf5, type: 3}
+    - target: {fileID: 3823929942843852755, guid: 4bb00be18443ae245af8b27a48e1dcb7,
+        type: 3}
+      propertyPath: parentToReturnTo
+      value: 
+      objectReference: {fileID: 778353981}
+    - target: {fileID: 3823929942843852755, guid: 4bb00be18443ae245af8b27a48e1dcb7,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 778353981}
     - target: {fileID: 3823929942843852752, guid: 4bb00be18443ae245af8b27a48e1dcb7,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3823929942843852752, guid: 4bb00be18443ae245af8b27a48e1dcb7,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3823929942843852752, guid: 4bb00be18443ae245af8b27a48e1dcb7,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 125
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3823929942843852752, guid: 4bb00be18443ae245af8b27a48e1dcb7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3823929941809596420, guid: 4bb00be18443ae245af8b27a48e1dcb7,
         type: 3}
@@ -3377,21 +3392,6 @@ PrefabInstance:
       propertyPath: m_FillCenter
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3823929942843852755, guid: 4bb00be18443ae245af8b27a48e1dcb7,
-        type: 3}
-      propertyPath: TextFile
-      value: 
-      objectReference: {fileID: 4900000, guid: 0eeba9e946cb19443a7cf2a6c684bcf5, type: 3}
-    - target: {fileID: 3823929942843852755, guid: 4bb00be18443ae245af8b27a48e1dcb7,
-        type: 3}
-      propertyPath: parentToReturnTo
-      value: 
-      objectReference: {fileID: 778353981}
-    - target: {fileID: 3823929942843852755, guid: 4bb00be18443ae245af8b27a48e1dcb7,
-        type: 3}
-      propertyPath: parent
-      value: 
-      objectReference: {fileID: 778353981}
     - target: {fileID: 3823929942843852753, guid: 4bb00be18443ae245af8b27a48e1dcb7,
         type: 3}
       propertyPath: m_Sprite
@@ -3869,7 +3869,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1895946914
 MonoBehaviour:
   m_ObjectHideFlags: 0
