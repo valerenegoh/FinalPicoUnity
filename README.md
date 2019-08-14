@@ -93,6 +93,6 @@ Stage 6 ([FinalPicoUnity](https://github.com/ValereneGoh/FinalPicoUnity)):
 - Animations and motor integration for the wheel was added into App logic.
 
 ### References:
-- Firebase implementation reference: https://www.youtube.com/watch?v=Fz0Sl4tW5O0&t=588s
+- Firebase implementation takes reference from: https://www.youtube.com/watch?v=Fz0Sl4tW5O0&t=588s
 - Creating the scrolling interface in Unity takes reference from: https://www.youtube.com/watch?v=9B7ahj1kaYs
 - Creating the drag-and-drop feature in Unity takes reference from: https://www.youtube.com/watch?v=bMuYUOIAdnc
