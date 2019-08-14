@@ -64,7 +64,7 @@ public class ScrollRectSnap : MonoBehaviour{
             //center element
             if (minDistance == distance[a]){
                 minimageNum = a;
-                Vector3 newScale = transform.localScale*1.2f;
+                Vector3 newScale = transform.localScale*1.25f;
                 img[a].transform.localScale = Vector3.Lerp(img[a].transform.localScale, newScale, slerpSpeed * Time.deltaTime);
                 canDrag = true;
                 if(BluetoothScript.enabled){

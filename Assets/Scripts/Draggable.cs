@@ -17,7 +17,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     public static string _hm10;
 
     public void OnBeginDrag(PointerEventData eventData){
-        var data = Encoding.UTF8.GetBytes ("w");
+        var data = Encoding.UTF8.GetBytes ("w");          // 
         BluetoothLEHardwareInterface.WriteCharacteristic (_hm10, ServiceUUID, Characteristic, data, data.Length, false, (characteristicUUID) => {
             BluetoothLEHardwareInterface.Log ("Write Succeeded");
         });

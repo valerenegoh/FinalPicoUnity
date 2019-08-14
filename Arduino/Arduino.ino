@@ -15,16 +15,16 @@ int B1_LED = 44;
 int C2_LED = 46;
 int CS2_LED = 45;
 int D2_LED = 43;
-int DS2_LED = 41;
-int E2_LED = 39;
+int DS2_LED = 39;
+int E2_LED = 41;
 int F2_LED = 37;
 int FS2_LED = 35;
 int G2_LED = 33;
-int GS2_LED = 31;
+int GS2_LED = 23;
 int A2_LED = 29;
 int AS2_LED = 27;
 int B2_LED = 25;
-int C3_LED = 23;
+int C3_LED = 31;
 
 void setup() {
   Serial.begin(9600);
@@ -89,127 +89,127 @@ void loop() {
     switch(incomingData){
       case '0':
         digitalWrite (C1_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(C1_LED, LOW);
         break;
       case '1':
         digitalWrite (CS1_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(CS1_LED, LOW);
         break;
       case '2':
         digitalWrite (D1_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(D1_LED, LOW);
         break;
       case '3':
         digitalWrite (DS1_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(DS1_LED, LOW);
         break;
       case '4':
         digitalWrite (E1_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(E1_LED, LOW);
         break;
       case '5':
         digitalWrite (F1_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(F1_LED, LOW);
         break;
       case '6':
         digitalWrite (FS1_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(FS1_LED, LOW);
         break;
       case '7':
         digitalWrite (G1_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(G1_LED, LOW);
         break;
       case '8':
         digitalWrite (GS1_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(GS1_LED, LOW);
         break;
       case '9':
         digitalWrite (A1_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(A1_LED, LOW);
         break;
       case 'a':
         digitalWrite (AS1_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(AS1_LED, LOW);
         break;
       case 'b':
         digitalWrite (B1_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(B1_LED, LOW);
         break;
       case 'c':
         digitalWrite (C2_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(C2_LED, LOW);
         break;
       case 'd':
         digitalWrite (CS2_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(CS2_LED, LOW);
         break;
       case 'e':
         digitalWrite (D2_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(D2_LED, LOW);
         break;
       case 'f':
         digitalWrite (DS2_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(DS2_LED, LOW);
         break;
       case 'g':
         digitalWrite (E2_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(E2_LED, LOW);
         break;
       case 'h':
         digitalWrite (F2_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(F2_LED, LOW);
         break;
       case 'i':
         digitalWrite (FS2_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(FS2_LED, LOW);
         break;
       case 'j':
         digitalWrite (G2_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(G2_LED, LOW);
         break;
       case 'k':
         digitalWrite (GS2_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(GS2_LED, LOW);
         break;
       case 'l':
         digitalWrite (A2_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(A2_LED, LOW);
         break;
       case 'm':
         digitalWrite (AS2_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(AS2_LED, LOW);
         break;
       case 'n':
         digitalWrite (B2_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(B2_LED, LOW);
         break;
       case 'o':
         digitalWrite (C3_LED, HIGH);
-        delay(100);
+        delay(50);
         digitalWrite(C3_LED, LOW);
         break;      
       case 'w':

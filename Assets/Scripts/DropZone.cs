@@ -44,13 +44,17 @@ public class DropZone : MonoBehaviour, IDropHandler{
     public GameObject scroll;
     public static bool canRotatePlayer = false;
     public GameObject toAnim;
+    public GameObject toAnim2;
     private Animator anim;
+    private Animator anim2;
     // public SerialPort stream;
 
     void Start(){
         InitializeBluetooth();
         StartCoroutine(ShowStatistics());
         anim = toAnim.GetComponent<Animator>();
+        anim2 = toAnim2.GetComponent<Animator>();
+        anim2.SetBool("isPulsing", true);
     }
 
     // What happens when user drags and drops a disc onto the vinyl plate.
@@ -78,6 +82,7 @@ public class DropZone : MonoBehaviour, IDropHandler{
     // What happens when song playing is done.
     private IEnumerator ReturnPlayer(float waitTime){
         anim.SetBool("isPlaying", false);
+        anim2.SetBool("isPulsing", true);
         yield return new WaitForSeconds(waitTime);  //wait awhile before returning disc to slot
         canRotatePlayer = false;
         scroll.GetComponent<ScrollRect>().enabled = true;
@@ -96,12 +101,12 @@ public class DropZone : MonoBehaviour, IDropHandler{
                 BluetoothLEHardwareInterface.Log ("Write Succeeded");
             });
         }
-        anim.SetBool("isDonePlaying", false);
     }
 
     // What happens during song play.
     private IEnumerator SendArduino(){
         anim.SetBool("isPlaying", true);
+        anim2.SetBool("isPulsing", false);
         d.RetrieveFromDatabase();
         yield return new WaitForSeconds(1.0f);  //wait awhile before getting popularity score & playing song
         print("Playing Track: " + d.getTitle() + " of popularity " + d.getPopularity());
