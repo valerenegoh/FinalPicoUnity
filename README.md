@@ -68,17 +68,23 @@ https://youtu.be/fZi4IeVtsKo
 https://youtu.be/vFjGHLuBx78
 
 There six iterations of the Unity App done on my Github over the course of 3 months. Below is a summary of them with their links attached.
+
 Stage 1 ([MiditoArduino](https://github.com/ValereneGoh/MiditoArduino)): 
 - Preprocessing script for getting interpretable music format (used for all subsequent stages)
 - Main script with simple playlist UI (made with Tkinter library), serial communication between Python and Arduino.
+
 Stage 2 ([UnitytoPythontoArduino](https://github.com/ValereneGoh/UnitytoPythontoArduino)): 
 - Unity playlist UI replaces Tkinter UI in Main script of Stage 1, serial communication between Unity and Python, Python and Arduino.
+
 Stage 3 ([UnitytoArduino](https://github.com/ValereneGoh/UnitytoArduino)):
 - Python proxy is removed from previous iteration, so Unity playlist UI directly communicates with Arduino serially.
+
 Stage 4 ([UnityBluetoothtoArduino](https://github.com/ValereneGoh/UnityBluetoothtoArduino)):
 - Unity communicates with Arduino via Bluetooth instead of serially. (wired --> wireless)
+
 Stage 5 ([UnityFirebasetoArduino](https://github.com/ValereneGoh/UnityFirebasetoArduino)):
 - Firebase database was added to collate popularity statistics of each song in real time.
+
 Stage 6 ([FinalPicoUnity](https://github.com/ValereneGoh/FinalPicoUnity)):
 - Animations and motor integration for the wheel was added into App logic.
 
