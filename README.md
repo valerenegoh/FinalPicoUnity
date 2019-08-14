@@ -1,4 +1,4 @@
-# UnityFirebaseBluetoothtoArduinoMotor
+# FinalPicoUnity
 Stage 6 of SUTD Capstone 45 Pico Musical Engineering Installation project.<br/>
 Refer to the following [link](https://youtu.be/EubplCl5Q8s) for a demo.
 
@@ -59,3 +59,14 @@ You will need Unity to make changes to the App Interface.
 
 ### To change the tempo of the overall installation:
 1. Edit line 244 of the DropZone.cs in `Assets > Scripts`.
+
+### Video demos of the project:
+https://youtu.be/0JXisI0RaLA
+https://youtu.be/vKBauMuSYiw
+https://youtu.be/fZi4IeVtsKo
+https://youtu.be/vFjGHLuBx78
+
+### References:
+Firebase implementation reference: https://www.youtube.com/watch?v=Fz0Sl4tW5O0&t=588s
+Creating the scrolling interface in Unity takes reference from: https://www.youtube.com/watch?v=9B7ahj1kaYs
+Creating the drag-and-drop feature in Unity takes reference from: https://www.youtube.com/watch?v=bMuYUOIAdnc
