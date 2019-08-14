@@ -82,7 +82,7 @@ Stage 3 ([UnitytoArduino](https://github.com/ValereneGoh/UnitytoArduino)):
 Stage 4 ([UnityBluetoothtoArduino](https://github.com/ValereneGoh/UnityBluetoothtoArduino)):
 - Unity communicates with Arduino via Bluetooth instead of serially. (wired --> wireless)
 
-Stage 5 ([UnityFirebasetoArduino](https://github.com/ValereneGoh/UnityFirebasetoArduino)):
+Stage 5 ([UnityFirebaseBluetoothtoArduino](https://github.com/ValereneGoh/UnityFirebaseBluetoothtoArduino)):
 - Firebase database was added to collate popularity statistics of each song in real time.
 
 Stage 6 ([FinalPicoUnity](https://github.com/ValereneGoh/FinalPicoUnity)):
