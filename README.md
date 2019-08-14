@@ -7,6 +7,10 @@ Unity directly reads the corresponding text file and sends the notes to play to 
 Bluetooth communication between Unity and Arduino: https://assetstore.unity.com/packages/tools/network/bluetooth-le-for-ios-tvos-and-android-26661
 This plugin only works for Android and iOS devices and not PC.
 
+A real-time firebase database was added to track the popularity statistics of each song. An snapshot is seen below:
+
+![image](https://user-images.githubusercontent.com/23626462/63004160-50c12b80-beac-11e9-93b2-375b1c245f4f.png)
+
 The Arduino script requires you to set up an electronic circuit with 25 LEDs/solenoids/etc as shown in the video. Ensure they are wired to the corresponding pin numbers as in the Arduino file. An Arduino MEGA was used for this project as it has enough number of pin holes.
 
 2 octaves, fully chromatic scale is used to form 25 notes as shown below.
@@ -89,8 +93,6 @@ Stage 6 ([FinalPicoUnity](https://github.com/ValereneGoh/FinalPicoUnity)):
 - Animations and motor integration for the wheel was added into App logic.
 
 ### References:
-Firebase implementation reference: https://www.youtube.com/watch?v=Fz0Sl4tW5O0&t=588s
-
-Creating the scrolling interface in Unity takes reference from: https://www.youtube.com/watch?v=9B7ahj1kaYs
-
-Creating the drag-and-drop feature in Unity takes reference from: https://www.youtube.com/watch?v=bMuYUOIAdnc
+- Firebase implementation reference: https://www.youtube.com/watch?v=Fz0Sl4tW5O0&t=588s
+- Creating the scrolling interface in Unity takes reference from: https://www.youtube.com/watch?v=9B7ahj1kaYs
+- Creating the drag-and-drop feature in Unity takes reference from: https://www.youtube.com/watch?v=bMuYUOIAdnc
