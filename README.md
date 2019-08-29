@@ -60,6 +60,7 @@ You will need Unity to make changes to the App Interface.
 1. Run Part 1 of https://github.com/ValereneGoh/MiditoArduino to convert midi files into interpretable text file formats.
 2. Add the text file to the folder under Assets > Scripts > txt.
 3. Open Unity and manually create a new CD player and holder for the new song via the Prefab folder.
+You may refer to this video for more detailed instructions: https://youtu.be/vmPR4MHsWxg.
 
 ### To change the tempo of the overall installation:
 1. Edit line 118 of the DropZone.cs in `Assets > Scripts`.
