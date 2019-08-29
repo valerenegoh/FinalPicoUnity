@@ -62,7 +62,7 @@ You will need Unity to make changes to the App Interface.
 3. Open Unity and manually create a new CD player and holder for the new song via the Prefab folder.
 
 ### To change the tempo of the overall installation:
-1. Edit line 244 of the DropZone.cs in `Assets > Scripts`.
+1. Edit line 118 of the DropZone.cs in `Assets > Scripts`.
 
 ### About the project:
 This repository constitutes the software aspect of Capstone 45's project. It is a running App built using Unity that controls the songs to be played on the machine through a user interface on the front-end and electronic components (solenoids and motors) on the back-end via Bluetooth. Below are some video demonstrations of the final project, when integrated with the entire hardware structure.
