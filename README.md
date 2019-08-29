@@ -67,10 +67,15 @@ You may refer to this video for more detailed instructions: https://youtu.be/vmP
 
 ### About the project:
 This repository constitutes the software aspect of Capstone 45's project. It is a running App built using Unity that controls the songs to be played on the machine through a user interface on the front-end and electronic components (solenoids and motors) on the back-end via Bluetooth. Below are some video demonstrations of the final project, when integrated with the entire hardware structure.
+
 https://youtu.be/0JXisI0RaLA
+
 https://youtu.be/vKBauMuSYiw
+
 https://youtu.be/fZi4IeVtsKo
+
 https://youtu.be/vFjGHLuBx78
+
 
 There six iterations of the Unity App done on my Github over the course of 3 months. Below is a summary of them with their links attached.
 
